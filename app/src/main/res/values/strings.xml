@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TicTac</string>
+    <string name="WelcomePageTitle">Welcome</string>
+    <string name="PlayB">Start Game</string>
+    <string name="Credits">Made By MedAzizAmmar</string>
+    <string name="PlayerSettings">Players Names</string>
+    <string name="P1_N">Player1 Name</string>
+    <string name="P2_N">Player2 Name</string>
+    <string name="GameLogs">History</string>
+    <string name="Return">Return</string>
+    <string name="Launch">Launch</string>
+</resources>
