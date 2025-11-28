@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/istockphoto_1292919739_612x612"
+    android:background="@drawable/background"
     tools:context=".GameOn">
 
     <TextView
@@ -38,8 +38,8 @@
 
     <GridLayout
         android:id="@+id/gameGrid"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="297dp"
+        android:layout_height="294dp"
         android:layout_marginTop="24dp"
         android:columnCount="3"
         android:rowCount="3"
@@ -52,81 +52,99 @@
             android:layout_width="90dp"
             android:layout_height="90dp"
             android:layout_margin="4dp"
-            android:backgroundTint="#80FFFFFF"
+            android:backgroundTint="#2E313131"
             android:textSize="40sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:strokeColor="#21ef80"
+            app:strokeWidth="2dp" />
 
         <Button
             android:id="@+id/btn_1"
             android:layout_width="90dp"
             android:layout_height="90dp"
             android:layout_margin="4dp"
-            android:backgroundTint="#80FFFFFF"
+            android:backgroundTint="#2E313131"
             android:textSize="40sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:strokeColor="#21ef80"
+            app:strokeWidth="2dp" />
 
         <Button
             android:id="@+id/btn_2"
             android:layout_width="90dp"
             android:layout_height="90dp"
             android:layout_margin="4dp"
-            android:backgroundTint="#80FFFFFF"
+            android:backgroundTint="#2E313131"
             android:textSize="40sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:strokeColor="#21ef80"
+            app:strokeWidth="2dp" />
 
         <Button
             android:id="@+id/btn_3"
             android:layout_width="90dp"
             android:layout_height="90dp"
             android:layout_margin="4dp"
-            android:backgroundTint="#80FFFFFF"
+            android:backgroundTint="#2E313131"
             android:textSize="40sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:strokeColor="#21ef80"
+            app:strokeWidth="2dp" />
 
         <Button
             android:id="@+id/btn_4"
             android:layout_width="90dp"
             android:layout_height="90dp"
             android:layout_margin="4dp"
-            android:backgroundTint="#80FFFFFF"
+            android:backgroundTint="#2E313131"
             android:textSize="40sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:strokeColor="#21ef80"
+            app:strokeWidth="2dp" />
 
         <Button
             android:id="@+id/btn_5"
             android:layout_width="90dp"
             android:layout_height="90dp"
             android:layout_margin="4dp"
-            android:backgroundTint="#80FFFFFF"
+            android:backgroundTint="#2E313131"
             android:textSize="40sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:strokeColor="#21ef80"
+            app:strokeWidth="2dp" />
 
         <Button
             android:id="@+id/btn_6"
             android:layout_width="90dp"
             android:layout_height="90dp"
             android:layout_margin="4dp"
-            android:backgroundTint="#80FFFFFF"
+            android:backgroundTint="#2E313131"
             android:textSize="40sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:strokeColor="#21ef80"
+            app:strokeWidth="2dp" />
 
         <Button
             android:id="@+id/btn_7"
-            android:layout_width="90dp"
+            android:layout_width="wrap_content"
             android:layout_height="90dp"
             android:layout_margin="4dp"
-            android:backgroundTint="#80FFFFFF"
+            android:backgroundTint="#2E313131"
             android:textSize="40sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:strokeColor="#21ef80"
+            app:strokeWidth="2dp" />
 
         <Button
             android:id="@+id/btn_8"
             android:layout_width="90dp"
             android:layout_height="90dp"
             android:layout_margin="4dp"
-            android:backgroundTint="#80FFFFFF"
+            android:backgroundTint="#2E313131"
             android:textSize="40sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:strokeColor="#21ef80"
+            app:strokeWidth="2dp" />
 
     </GridLayout>
 
@@ -144,14 +162,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
-            android:text="Replay" />
+            android:backgroundTint="#2E313131"
+            android:text="Replay"
+            app:strokeColor="#21ef80"
+            app:strokeWidth="2dp" />
 
         <Button
             android:id="@+id/homeButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:text="Home" />
+            android:backgroundTint="#2E313131"
+            android:text="Home"
+            app:strokeColor="#21ef80"
+            app:strokeWidth="2dp" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

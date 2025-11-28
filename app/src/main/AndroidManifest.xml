@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TicTac">
         <activity
+            android:name=".GameInfo"
+            android:exported="false" />
+        <activity
             android:name=".GameLogs"
             android:exported="false" />
         <activity

@@ -3,10 +3,12 @@
     <string name="WelcomePageTitle">Welcome</string>
     <string name="PlayB">Start Game</string>
     <string name="Credits">Made By MedAzizAmmar</string>
-    <string name="PlayerSettings">Players Names</string>
-    <string name="P1_N">Player1 Name</string>
-    <string name="P2_N">Player2 Name</string>
+    <string name="PlayerSettings">PLAYERS NAMES</string>
+    <string name="P1_N">PLAYER 1 NAME</string>
+    <string name="P2_N">PLAYER 2 NAME</string>
     <string name="GameLogs">History</string>
     <string name="Return">Return</string>
     <string name="Launch">Launch</string>
+    <string name="Gameinf">Game info</string>
+    <string name="game_rules">Objective\nThe goal of Tic Tac Toe is to be the first player to get three of your marks in a row — horizontally, vertically, or diagonally — on a 3x3 grid.\n\nSetup\nThe game is played on a 3x3 grid.\nTwo players participate: one uses \"X\" and the other uses \"O\".\nPlayers decide who goes first (usually \"X\").\n\nHow to Play\nPlayers take turns placing their mark (X or O) in an empty cell on the grid.\nOnly one mark can be placed per turn.\nPlayers alternate turns until the game ends.\n\nWinning the Game\nA player wins by placing three of their marks in a straight line:\nHorizontally (across any row)\nVertically (down any column)\nDiagonally (either of the two diagonal lines)\n\nDraw\nIf all nine cells are filled and no player has three in a row, the game ends in a draw (tie).</string>
 </resources>
